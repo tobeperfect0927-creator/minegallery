@@ -51,3 +51,13 @@
 - 원본 및 오프라인 기능 검증, 배포본 재생성이 성공했다.
 - 최초 CLI 업로드는 인증 도구 오류로 실패했다. 이후 연결된 GitHub 도구로 자료를 등록한다.
 - GitHub 인증 연결 후 `git push -u origin main`을 실행하고 원격 커밋을 확인해야 한다.
+
+
+## 원격 업로드의 현재 제한
+
+소스·기획·작업 문서는 업로드했습니다. 아래 4개 파일은 큰 파일의 직접 업로드가 자동 승인 검토 입력 한도를 초과하여 제외되었습니다. 로컬 파일은 온전히 보관되어 있습니다. GitHub 웹의 파일 업로드 또는 인증된 Git 클라이언트에서 추가 업로드해야 전체 자료 동기화가 완료됩니다.
+
+- consumer-web/dist/assets/lake.jpg
+- consumer-web/dist/assets/pottery.jpg
+- releases/마인갤러리-소비자웹-오프라인.html
+- releases/마인갤러리-소비자웹-오프라인.zip
